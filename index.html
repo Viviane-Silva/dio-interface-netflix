@@ -7,8 +7,11 @@
 
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="owl.carousel.min.css">
+    <link rel="stylesheet" href="owl.theme.default.min.css">
+
 
     <title>Netflix Clone</title>
 </head>
@@ -38,12 +41,39 @@
                     <p class="descricao">Nada pode impedir o político sem escrúpulos...</p>
                     
                     <div class="botoes">
-                        <button class="botao" role="button">ASSISTIR AGORA</button>
-                        <button class="botao" role="button">MAIS INFORMAÇÕES</button>
+                        <button class="botao" role="button">
+                            <i class="bi bi-play-fill"></i>ASSISTIR AGORA 
+                        </button>
+                        
+                        <button class="botao" role="button">
+                            <i class="bi bi-info-circle-fill"></i>MAIS INFORMAÇÕES
+                        </button>
                     </div>
                 </div>
                 
             </div>
         </main>
+
+        <div class="carrousel-filmes">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img class="box-filmes" src="https://www.bing.com/th?id=Ae18802d8bf51a80cfb5be09cdb1bbce6&w=180&h=270&c=4&rs=1&qlt=80&o=6&pid=SANGAM" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filmes" src="https://www.bing.com/th?id=Aea5c7faeb54ba56d34de37782e5bddaf&w=180&h=270&c=4&rs=1&qlt=80&o=6&pid=SANGAM" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filmes" src="https://www.bing.com/th?id=A4f2d7576193bba7b83c54fc45178c4ca&w=180&h=270&c=4&rs=1&qlt=80&o=6&pid=SANGAM" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filmes" src="https://www.bing.com/th?id=Af1a982a568df0d1823010acbd45c1335&w=180&h=270&c=4&rs=1&qlt=80&o=6&pid=SANGAM" alt="">
+                </div>
+            </div>
+      
+        </div>
+      
+      <script src="jquery.min.js"></script>
+      <script src="owl.carousel.min.js"></script>
+      <script src="main.js"></script>
 </body>
 </html>
